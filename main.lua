@@ -1,6 +1,6 @@
 --[[ 
 
-ZLOCK Anti Virus Version 1.3.5
+ZLOCK Anti Virus Version 1.3.6
 Last updated: 2021-11-30
 Created and written by zblox164
 
@@ -43,6 +43,8 @@ local junk = junkM.deprecated
 local toolbar = plugin:CreateToolbar("ZLOCK Quick bar")
 local button = toolbar:CreateButton("Click to open", "ZLOCK", "rbxassetid://7184112961")
 local scangamequickbar = toolbar:CreateButton("Click to scan game", "Game Scan", "rbxassetid://8130258586")
+local settingsquickbar = toolbar:CreateButton("Click to open settings", "Settings", "rbxassetid://8145354364")
+
 local UI = script.UI
 
 local insert = table.insert
@@ -759,6 +761,15 @@ button.Click:Connect(function()
 		UI.Parent = script
 		updateSettings()
 	end
+end)
+
+settingsquickbar.Click:Connect(function()
+	_settings.Visible = true
+	main.clearAll.Visible = false
+	main.deleteAll.Visible = false
+	
+	openVal = true
+	UI.Parent = game.CoreGui
 end)
 
 topbar.close.MouseButton1Click:Connect(function()
