@@ -19,16 +19,18 @@ list.virusNames = {
 	
 	"ExecutorServer", "EXTRAHAX",
 	
-	"FeelFreeToIns3rtGramm�tic�lErrorsHere", "FreeStyleM�yGoAnywhereIfNeeded",
+	"FeelFreeToIns3rtGramm�tic�lErrorsHere", "FeelFreeToIns3rtGramm?tic?lErrorsHere",
+	"FreeStyleM�yGoAnywhereIfNeeded", "FreeStyleM?yGoAnywhereIfNeeded", 
 	"Fire", "Fire Remover",
 	
-	"garmo hacked ur place", "Glosware� | Anti-Fire", "Guest Free Chat Script", "Guest Talking Script", 
-	"Guest_Talking_Script",
+	"garmo hacked ur place", "geometry", "Glosware� | Anti-Fire", 
+	"Guest Free Chat Script", "Guest Talking Script", "Guest_Talking_Script",
 	
-	"H4XXX", "HAAXEDBYCREX", "Hack", "Harmless little scripty", "Hidden",
+	"H4XXX", "HAAXEDBYCREX", "Hack", "Harmless little scripty", "hello...i ?m your new lord lolz", 
+	"Hidden",
 	
 	"I am a friendly virus", "IAmHereToHe�lYourPlace", "IAmHereToHe?lYourPlace",
-	"Important,Breaks if you open.", "IsAVirus",
+	"Important,Breaks if you open.", "IsAVirus", "IStï¿½rtHere",
 	"infection", "Infected", "Installer", "Inject", "injector", "IMDOINGITOKSODONTKILLMENOW", "IsInfected",
 	"InfectedScript",
 	
@@ -40,7 +42,8 @@ list.virusNames = {
 	
 	"micolord",
 	
-	"No samurai plzzz", "N0ISE", "Nice little scripty",
+	"NoNoIDon'tNeedAllOfYourAwkw?rdSovietArguments", 
+	"No samurai plzzz", "N0ISE", "Nice little scripty", "N00B 4TT4CK!",
 	"NoNoIDon'tNeedAllOfYourAwkw�rdSovietArguments",
 	
 	"oDPAKSFOPASKDOPKospkd",
@@ -49,7 +52,7 @@ list.virusNames = {
 	"protection", "ProperGr�mmerNeededInPhilosiphalLocations;insertNoobHere",
 	"ProperGrï¿½mmerNeededInPhilosiphalLocations;insertNoobHere",
 	
-	"RemoteHandler", "ResponseSystem", "ROFL", "RoSync", "RSFfacility",
+	"RemoteHandler", "ResponseSystem", "ROFL", "RoSync", "ropack", "RSFfacility",
 	
 	"ServerSide", "Server Side", "Script......Or is it...", 
 	"SnapReducer", "Snap Reducer", "Snap-Reducer", "snap infection",
@@ -57,6 +60,7 @@ list.virusNames = {
 	"Spread", "Spreadify", "Sovietify", "soz i herd u lik mudkipz",
 	
 	"TehScript", "Trashed", "ThisScriptIsAJumpStartToAHe�lthyLifestyle",
+	"ThisScriptIsAJumpStartToAHe?lthyLifestyle",
 	
 	"Vaccine", "Vacicne", "Virus", "Virus_666.exe", "ViVRuS", "ViVrus", "Vivurursdd", "Virus Protect",
 	"VirusScript", "Virus Script", "VK� 2011",
