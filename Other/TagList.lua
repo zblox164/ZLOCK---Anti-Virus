@@ -71,6 +71,7 @@ list.tags = {
 	
 	["virus"] = "Keyword 'virus'",
 	["serverside"] = "Keyword 'serverside'",
+	["HAX"] = "Keyword 'HAX'"
 }
 
 return list
