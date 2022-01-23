@@ -54,10 +54,6 @@ list.tags = {
 	["IllIIIlIIIIll"] = "Unreadable script", 
 	["lIlIllIlIlll"] = "Unreadable script", 
 	["llllIIIlllllll"] = "Unreadable script",
-	["IlI"] = "Unreadable script",
-	["IIl"]  = "Unreadable script",
-	["III"] = "Unreadable script",
-	["lII"] = "Unreadable script",
 	
 	
 	["require("] = "require()", 
