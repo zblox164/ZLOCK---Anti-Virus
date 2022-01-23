@@ -1,15 +1,15 @@
 --[[ 
 
-ZLOCK Anti Virus Version 1.3.6
-Last updated: 2021-11-30
+ZLOCK Anti Virus Version 1.3.9
+Last updated: 2022-01-23
 Created and written by zblox164
 
 ]]
 
 local selectionService = game:GetService("Selection")
-local testService = game:GetService("TestService")
 local serverStorage = game:GetService("ServerStorage")
 local insertService = game:GetService("InsertService")
+local runService = game:GetService("RunService")
 local changeHistoryService = game:GetService("ChangeHistoryService")
 
 local services = {
@@ -262,6 +262,11 @@ local function locate(obj)
 				return viruses, types, 10
 			end
 		end
+	elseif obj:IsA("Hint") then
+		viruses = obj
+		types = "Hint"
+		
+		return viruses, types, 1
 	end
 	
 	return viruses, types, risk
@@ -557,7 +562,7 @@ local function display(selection, a, s)
 			main.cancel.Visible = false
 			
 			if s then
-				testService:Message("Scanned: " .. s.Name .. ". Found: " .. #viruses)
+				print("Scanned: " .. s.Name .. ". Found: " .. #viruses)
 			end
 			
 			if a then
@@ -573,9 +578,9 @@ local function display(selection, a, s)
 	end
 	
 	if not s then
-		testService:Message("Scan finished. Found: 0 viruses.")
+		print("Scan finished. Found: 0 viruses.")
 	else
-		testService:Message("Scanned: " .. s.Name .. ". Found 0 viruses.")
+		print("Scanned: " .. s.Name .. ". Found 0 viruses.")
 	end
 	
 	main.viruses.CanvasPosition = Vector2.new(0, 0)
