@@ -7,7 +7,7 @@ list.deprecated = {
 	[":destroy"] = "Deprecated Destroy()", [":isA"] = "Deprecated IsA()",
 	[":getChildren"] = "Deprecated GetChildren()", [":children"] = "Deprecated function 'children()'",
 	[":isDescendantOf"] = "Deprecated IsDescendantOf()", [".childAdded"] = "Deprecated signal 'childAdded'",
-	["className"] = "Deprecated property 'className'"
+	["className"] = "Deprecated property 'className'", ["archivable"] = "Deprecated property 'archivable'"
 }
 
 return list
