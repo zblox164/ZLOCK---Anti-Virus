@@ -10,4 +10,4 @@ Features:
 - Deprecated/Bad code detection
 - Update Checker (checks for new updates if available)
 
-Version 1.3.6
+Version 1.3.9
