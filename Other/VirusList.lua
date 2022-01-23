@@ -24,7 +24,8 @@ list.virusNames = {
 	"Fire", "Fire Remover",
 	
 	"garmo hacked ur place", "geometry", "Glosware� | Anti-Fire", 
-	"Guest Free Chat Script", "Guest Talking Script", "Guest_Talking_Script",
+	"Guest Free Chat Script", "guest talker", "guesttalker", "Guest Talking Script", 
+	"Guest_Talking_Script",
 	
 	"H4XXX", "HAAXEDBYCREX", "Hack", "Harmless little scripty", "hello...i ?m your new lord lolz", 
 	"Hidden",
@@ -51,8 +52,9 @@ list.virusNames = {
 	
 	"protection", "ProperGr�mmerNeededInPhilosiphalLocations;insertNoobHere",
 	"ProperGrï¿½mmerNeededInPhilosiphalLocations;insertNoobHere",
+	"ProperGr?mmerNeededInPhilosiphalLocations;insertNoobHere",
 	
-	"RemoteHandler", "ResponseSystem", "ROFL", "RoSync", "ropack", "RSFfacility",
+	"RemoteHandler", "ResponseSystem", "ROFL", "RoSync", "ropack", "ro pack", "RSFfacility",
 	
 	"ServerSide", "Server Side", "Script......Or is it...", 
 	"SnapReducer", "Snap Reducer", "Snap-Reducer", "snap infection",
